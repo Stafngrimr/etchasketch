@@ -1,6 +1,87 @@
 # css for etchasketch project
 
-body {
-    background-color: grey;
-    color: white;
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:url("bg.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#staf {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#container {
+    background-color: rgb(255, 76, 53);
+    border: 2px solid rgb(197, 57, 39);
+    border-radius: 50px;
+    padding: 25px 50px;
+    margin-top: 25px;
+}
+
+h1 {
+    font-family: "Dancing Script";
+    font-size: 3em;
+    text-align: center;
+    margin: 0px;
+    color: rgb(163, 120, 0);
+    text-shadow: -1px -1px white, 1px -1px white, -1px 1px white, 1px 1px white;
+}
+
+#grid-container {
+    background-color: rgb(196,196,196);
+    display: flex;
+    flex-direction: row;
+    max-width: 660px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    border: 3px solid rgb(197, 57, 39);
+    border-radius: 5px;
+}
+
+.block {
+    flex-shrink: 0;
+}
+
+.block:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.roundbtn {
+    background-color: white;
+    text-align: center;
+    line-height:  100px;
+    width: 100px;
+    height: 100px;
+    color: rgb(87, 87, 87);
+    border: 3px dotted rgb(172, 172, 172);
+    border-radius: 150px;
+}
+
+.roundbtn:hover {
+    background-color: rgb(172, 172, 172);
+    color: white;
+    border: 3px dotted white;
+}
+
