@@ -19,12 +19,6 @@ body {
     font-weight: 1000;
 }
 
-#staf {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-}
-
 #container {
     background-color: rgb(255, 76, 53);
     border: 2px solid rgb(197, 57, 39);
@@ -85,3 +79,26 @@ h1 {
     border: 3px dotted white;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+}
+
+#github img{
+    height: 23px;
+    width: 23px;
+	margin-right: 10px;
+}
+
+#github img:hover {
+    transform: scale(1.3);
+}
